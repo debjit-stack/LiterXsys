@@ -1,0 +1,23 @@
+[
+  {
+    "id": "win_001",
+    "type": "delivery",
+    "title": "🎉 Just delivered: Business website for our first client, Kolkata",
+    "date": "2026-06-01",
+    "visible": true
+  },
+  {
+    "id": "win_002",
+    "type": "acquisition",
+    "title": "🤝 New client onboarded — Local business, Kolkata",
+    "date": "2026-06-10",
+    "visible": true
+  },
+  {
+    "id": "win_003",
+    "type": "milestone",
+    "title": "🚀 LiterXsys officially launched — Kolkata's newest tech partner",
+    "date": "2026-06-15",
+    "visible": true
+  }
+]

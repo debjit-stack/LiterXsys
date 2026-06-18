@@ -1,0 +1,50 @@
+[
+  {
+    "id": "faq_001",
+    "question": "How much does a website cost?",
+    "answer": "Our packages start from ₹8,999 for a basic 5-page website. The final price depends on your requirements — features, pages, and integrations. We offer a free consultation to give you an exact quote with no hidden charges.",
+    "visible": true
+  },
+  {
+    "id": "faq_002",
+    "question": "How long does it take to build a website?",
+    "answer": "A standard website takes 7–14 days. More complex projects with apps or AI chatbots may take 3–4 weeks. We'll give you a clear timeline before we start.",
+    "visible": true
+  },
+  {
+    "id": "faq_003",
+    "question": "Do you provide website maintenance after launch?",
+    "answer": "Yes! All packages include free support for 1–6 months depending on your plan. After that, we offer affordable monthly maintenance plans starting from ₹1,999/month.",
+    "visible": true
+  },
+  {
+    "id": "faq_004",
+    "question": "What is an AI Chatbot and do I need one?",
+    "answer": "An AI Chatbot answers customer questions on your website 24/7 — even when you're asleep. It captures leads, handles FAQs, and books consultations automatically. Most businesses see a 30–50% increase in enquiries after adding one.",
+    "visible": true
+  },
+  {
+    "id": "faq_005",
+    "question": "Can you help my business rank on Google?",
+    "answer": "Absolutely. SEO (Search Engine Optimization) is built into every website we make. We also offer dedicated SEO services to help your business appear on the first page of Google for Kolkata-based searches.",
+    "visible": true
+  },
+  {
+    "id": "faq_006",
+    "question": "Do you work with businesses outside Kolkata?",
+    "answer": "Yes! While we specialize in helping Kolkata businesses, we work with clients across West Bengal and across India. Our remote work process is smooth and transparent.",
+    "visible": true
+  },
+  {
+    "id": "faq_007",
+    "question": "What is WhatsApp Automation?",
+    "answer": "WhatsApp Automation lets your business send automatic replies, appointment reminders, order updates, and promotional messages to customers via WhatsApp — saving hours of manual work every week.",
+    "visible": true
+  },
+  {
+    "id": "faq_008",
+    "question": "Are there any hidden charges?",
+    "answer": "Never. We believe in complete transparency. All pricing is discussed upfront. The only additional costs are third-party services like domain registration (₹800–1,500/year) and hosting (if not on Vercel free tier).",
+    "visible": true
+  }
+]

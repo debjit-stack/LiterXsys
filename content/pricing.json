@@ -1,0 +1,53 @@
+{
+  "packages": [
+    {
+      "name": "Starter",
+      "starting_from": 8999,
+      "highlight": false,
+      "badge": null,
+      "features": [
+        "5-page responsive website",
+        "Basic on-page SEO",
+        "Contact form integration",
+        "Mobile-first design",
+        "1 month free support"
+      ],
+      "ideal_for": "New businesses, solo entrepreneurs",
+      "cta": "Get a Quote"
+    },
+    {
+      "name": "Growth",
+      "starting_from": 24999,
+      "highlight": true,
+      "badge": "Most Popular",
+      "features": [
+        "Up to 15-page website",
+        "Full SEO setup",
+        "AI Chatbot integration",
+        "WhatsApp chat button",
+        "Google Analytics + Search Console",
+        "3 months free support"
+      ],
+      "ideal_for": "Restaurants, Gyms, Training Institutes",
+      "cta": "Get a Quote"
+    },
+    {
+      "name": "Premium",
+      "starting_from": 59999,
+      "highlight": false,
+      "badge": null,
+      "features": [
+        "Full website + Android App",
+        "Advanced SEO + Digital Marketing",
+        "AI Chatbot (custom trained)",
+        "WhatsApp Automation flows",
+        "Lead Generation System",
+        "Monthly reporting dashboard",
+        "6 months support"
+      ],
+      "ideal_for": "Established businesses scaling fast",
+      "cta": "Get a Quote"
+    }
+  ],
+  "note": "Final pricing shared after free consultation. No hidden charges."
+}

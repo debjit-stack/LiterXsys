@@ -1,0 +1,10 @@
+{
+  "active": true,
+  "label": "Launch Offer",
+  "headline": "20% OFF on all Website Packages — Limited Time Only",
+  "subtext": "Special launch pricing for early clients",
+  "cta_text": "Claim This Offer",
+  "cta_link": "/free-audit",
+  "expires_at": "2026-12-31T23:59:59",
+  "style": "normal"
+}

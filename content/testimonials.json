@@ -1,0 +1,20 @@
+[
+  {
+    "id": "t_001",
+    "name": "Rajesh Kumar",
+    "business": "Local Restaurant, Kolkata",
+    "city": "Kolkata",
+    "rating": 5,
+    "quote": "LiterXsys delivered exactly what we needed — a clean, fast website that actually brings in customers. Highly recommend!",
+    "visible": true
+  },
+  {
+    "id": "t_002",
+    "name": "Priya Ghosh",
+    "business": "Training Institute, Kolkata",
+    "city": "Kolkata",
+    "rating": 5,
+    "quote": "Professional team, on-time delivery, and the website looks stunning on mobile. Our enquiries have gone up significantly.",
+    "visible": true
+  }
+]

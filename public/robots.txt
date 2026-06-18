@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /api/
+
+# Host
+Host: https://literxsys.com
+
+# Sitemaps
+Sitemap: https://literxsys.com/sitemap.xml

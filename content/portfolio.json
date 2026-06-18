@@ -1,0 +1,46 @@
+[
+  {
+    "id": "p_001",
+    "title": "Restaurant Digital Presence",
+    "industry": "Restaurant",
+    "tech": ["Next.js", "Tailwind CSS", "SEO"],
+    "description": "Complete website with online menu, booking system, and local SEO optimization.",
+    "demo_link": "/portfolio/restaurant-demo",
+    "image": "/images/portfolio/restaurant.jpg",
+    "tags": ["website", "seo"],
+    "visible": true
+  },
+  {
+    "id": "p_002",
+    "title": "Gym & Fitness Center Website",
+    "industry": "Fitness",
+    "tech": ["React", "Tailwind CSS", "WhatsApp Integration"],
+    "description": "Modern gym website with class schedules, membership plans, and WhatsApp booking.",
+    "demo_link": "/portfolio/gym-demo",
+    "image": "/images/portfolio/gym.jpg",
+    "tags": ["website"],
+    "visible": true
+  },
+  {
+    "id": "p_003",
+    "title": "Training Institute Portal",
+    "industry": "Education",
+    "tech": ["Next.js", "AI Chatbot", "Lead Forms"],
+    "description": "Course listing portal with AI chatbot for enquiries and automated lead capture.",
+    "demo_link": "/portfolio/training-institute-demo",
+    "image": "/images/portfolio/training.jpg",
+    "tags": ["website", "ai"],
+    "visible": true
+  },
+  {
+    "id": "p_004",
+    "title": "Travel Agency Booking Site",
+    "industry": "Travel",
+    "tech": ["Next.js", "Booking System", "SEO"],
+    "description": "Travel package showcase with enquiry system and WhatsApp automation.",
+    "demo_link": "/portfolio/travel-agency-demo",
+    "image": "/images/portfolio/travel.jpg",
+    "tags": ["website", "automation"],
+    "visible": true
+  }
+]
