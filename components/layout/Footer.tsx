@@ -3,20 +3,24 @@ import Image from "next/image";
 import { MapPin, Phone, Mail, MessageCircle } from "lucide-react";
 
 const services = [
-  { label: "Website Development", href: "/services/website-development" },
+  { label: "Website Development",     href: "/services/website-development" },
   { label: "Android App Development", href: "/services/android-app-development" },
-  { label: "SEO Optimization", href: "/services/seo-optimization" },
-  { label: "Digital Marketing", href: "/services/digital-marketing" },
-  { label: "AI Chatbot Development", href: "/services/ai-chatbot-development" },
-  { label: "WhatsApp Automation", href: "/services/whatsapp-automation" },
+  { label: "SEO Optimization",        href: "/services/seo-optimization" },
+  { label: "Digital Marketing",       href: "/services/digital-marketing" },
+  { label: "AI Chatbot Development",  href: "/services/ai-chatbot-development" },
+  { label: "WhatsApp Automation",     href: "/services/whatsapp-automation" },
+  { label: "Website Maintenance",     href: "/services/website-maintenance" },
+  { label: "ERP Solutions",           href: "/services/erp-solutions" },
+  { label: "Logistics Solutions",     href: "/services/logistics-solutions" },
+  { label: "Software Development",    href: "/services/software-development" },
 ];
 
 const industries = [
-  { label: "Restaurants", href: "/industries/restaurants" },
-  { label: "Gyms & Fitness", href: "/industries/gyms-fitness" },
-  { label: "Training Institutes", href: "/industries/training-institutes" },
-  { label: "Travel Agencies", href: "/industries/travel-agencies" },
-  { label: "Schools & Colleges", href: "/industries/schools-colleges" },
+  { label: "Restaurants",          href: "/industries/restaurants" },
+  { label: "Gyms & Fitness",       href: "/industries/gyms-fitness" },
+  { label: "Training Institutes",  href: "/industries/training-institutes" },
+  { label: "Travel Agencies",      href: "/industries/travel-agencies" },
+  { label: "Schools & Colleges",   href: "/industries/schools-colleges" },
   { label: "Hospital & Diagnostics", href: "/industries/hospital-diagnostics" },
 ];
 
@@ -25,6 +29,7 @@ export function Footer() {
     <footer className="bg-midnight-navy border-t border-white/10">
       <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          {/* Brand */}
           <div className="lg:col-span-1">
             <Image src="/images/logo.png" alt="LiterXsys" width={140} height={40} className="h-9 w-auto mb-4" />
             <p className="text-pale-gray/80 text-sm leading-relaxed mb-5">
@@ -46,17 +51,19 @@ export function Footer() {
             </div>
           </div>
 
+          {/* Services — 2-col mini grid */}
           <div>
             <h4 className="text-white font-semibold font-jakarta mb-4 text-sm uppercase tracking-wider">Services</h4>
-            <ul className="space-y-2">
+            <div className="grid grid-cols-1 gap-y-2">
               {services.map((s) => (
-                <li key={s.href}>
-                  <Link href={s.href} className="text-pale-gray/70 hover:text-cyan-glow text-sm transition-colors">{s.label}</Link>
-                </li>
+                <Link key={s.href} href={s.href} className="text-pale-gray/70 hover:text-cyan-glow text-xs transition-colors leading-relaxed">
+                  {s.label}
+                </Link>
               ))}
-            </ul>
+            </div>
           </div>
 
+          {/* Industries */}
           <div>
             <h4 className="text-white font-semibold font-jakarta mb-4 text-sm uppercase tracking-wider">Industries</h4>
             <ul className="space-y-2">
@@ -68,16 +75,17 @@ export function Footer() {
             </ul>
           </div>
 
+          {/* Company + CTA */}
           <div>
             <h4 className="text-white font-semibold font-jakarta mb-4 text-sm uppercase tracking-wider">Company</h4>
             <ul className="space-y-2 mb-6">
               {[
-                { label: "About Us", href: "/about" },
-                { label: "Portfolio", href: "/portfolio" },
-                { label: "Pricing", href: "/pricing" },
-                { label: "Blog", href: "/blog" },
-                { label: "Contact", href: "/contact" },
-                { label: "Free Website Audit", href: "/free-audit" },
+                { label: "About Us",           href: "/about" },
+                { label: "Portfolio",           href: "/portfolio" },
+                { label: "Pricing",             href: "/pricing" },
+                { label: "Blog",                href: "/blog" },
+                { label: "Contact",             href: "/contact" },
+                { label: "Free Website Audit",  href: "/free-audit" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link href={l.href} className="text-pale-gray/70 hover:text-cyan-glow text-sm transition-colors">{l.label}</Link>
@@ -90,19 +98,20 @@ export function Footer() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-emerald-trust hover:bg-green-500 text-white text-sm font-semibold px-4 py-2.5 rounded-full transition-colors"
             >
-              <MessageCircle size={15} />
-              Chat on WhatsApp
+              <MessageCircle size={15} /> Chat on WhatsApp
             </Link>
           </div>
         </div>
 
+        {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-pale-gray/50">
           <span>© {new Date().getFullYear()} LiterXsys Techsol. All rights reserved.</span>
           <div className="flex gap-4">
             {[
-              { label: "Privacy Policy", href: "/privacy-policy" },
-              { label: "Terms", href: "/terms-and-conditions" },
-              { label: "Refund Policy", href: "/refund-policy" },
+              { label: "Privacy Policy",  href: "/privacy-policy" },
+              { label: "Terms",           href: "/terms-and-conditions" },
+              { label: "Refund Policy",   href: "/refund-policy" },
+              { label: "Cookie Policy",   href: "/cookie-policy" },
             ].map((l) => (
               <Link key={l.href} href={l.href} className="hover:text-pale-gray transition-colors">{l.label}</Link>
             ))}

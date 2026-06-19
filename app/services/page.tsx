@@ -2,22 +2,24 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHero } from "@/components/shared/PageHero";
 import { CTAStrip } from "@/components/shared/CTAStrip";
-import { Globe, Smartphone, Search, Megaphone, Bot, MessageSquare, Wrench, BarChart3, ArrowRight } from "lucide-react";
+import { Globe, Smartphone, Search, Megaphone, Bot, MessageSquare, Wrench, BarChart3, Truck, Code2, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Our Services — LiterXsys Techsol | Digital Solutions Kolkata",
-  description: "Website development, SEO, AI chatbots, WhatsApp automation, Android apps & more — complete digital solutions for Kolkata businesses.",
+  description: "Website development, SEO, AI chatbots, WhatsApp automation, Android apps, logistics solutions, custom software & more — complete digital solutions for Kolkata businesses.",
 };
 
 const services = [
-  { icon: Globe, title: "Website Development", slug: "website-development", desc: "Fast, beautiful, mobile-first websites built with Next.js. Designed to convert visitors into paying customers.", color: "text-electric-blue", bg: "bg-electric-blue/10" },
-  { icon: Smartphone, title: "Android App Development", slug: "android-app-development", desc: "Custom Android apps — ordering systems, booking apps, loyalty programs — built for real users.", color: "text-cyan-glow", bg: "bg-cyan-glow/10" },
-  { icon: Search, title: "SEO Optimization", slug: "seo-optimization", desc: "Rank on the first page of Google for Kolkata searches. Organic traffic that compounds over time.", color: "text-emerald-trust", bg: "bg-emerald-trust/10" },
-  { icon: Megaphone, title: "Digital Marketing", slug: "digital-marketing", desc: "Google Ads, Meta Ads & email campaigns. Qualified leads to your business, not just clicks.", color: "text-amber-cta", bg: "bg-amber-cta/10" },
-  { icon: Bot, title: "AI Chatbot Development", slug: "ai-chatbot-development", desc: "Your business, open 24/7. AI chatbots capture leads, answer questions, and book appointments automatically.", color: "text-electric-blue", bg: "bg-electric-blue/10" },
-  { icon: MessageSquare, title: "WhatsApp Automation", slug: "whatsapp-automation", desc: "Order updates, appointment reminders, and promotional messages sent automatically via WhatsApp.", color: "text-emerald-trust", bg: "bg-emerald-trust/10" },
-  { icon: Wrench, title: "Website Maintenance", slug: "website-maintenance", desc: "Keep your website fast, secure and up-to-date. Monthly maintenance — no technical headaches.", color: "text-cyan-glow", bg: "bg-cyan-glow/10" },
-  { icon: BarChart3, title: "ERP Solutions", slug: "erp-solutions", desc: "Custom dashboards for inventory, billing, HR & more. Built for small and growing businesses.", color: "text-amber-cta", bg: "bg-amber-cta/10" },
+  { icon: Globe,         title: "Website Development",     slug: "website-development",     desc: "Fast, beautiful, mobile-first websites built with Next.js. Designed to convert visitors into paying customers.",                                    color: "text-electric-blue", bg: "bg-electric-blue/10" },
+  { icon: Smartphone,    title: "Android App Development", slug: "android-app-development", desc: "Custom Android apps — ordering systems, booking apps, loyalty programs — built for real users.",                                                    color: "text-cyan-glow",    bg: "bg-cyan-glow/10"    },
+  { icon: Search,        title: "SEO Optimization",        slug: "seo-optimization",        desc: "Rank on the first page of Google for Kolkata searches. Organic traffic that compounds over time.",                                                  color: "text-emerald-trust",bg: "bg-emerald-trust/10"},
+  { icon: Megaphone,     title: "Digital Marketing",       slug: "digital-marketing",       desc: "Google Ads, Meta Ads & email campaigns. Qualified leads to your business, not just clicks.",                                                        color: "text-amber-cta",    bg: "bg-amber-cta/10"    },
+  { icon: Bot,           title: "AI Chatbot Development",  slug: "ai-chatbot-development",  desc: "Your business, open 24/7. AI chatbots capture leads, answer questions, and book appointments automatically.",                                       color: "text-electric-blue", bg: "bg-electric-blue/10" },
+  { icon: MessageSquare, title: "WhatsApp Automation",     slug: "whatsapp-automation",     desc: "Order updates, appointment reminders, and promotional messages sent automatically via WhatsApp.",                                                   color: "text-emerald-trust",bg: "bg-emerald-trust/10"},
+  { icon: Wrench,        title: "Website Maintenance",     slug: "website-maintenance",     desc: "Keep your website fast, secure and up-to-date. Monthly maintenance — no technical headaches.",                                                      color: "text-cyan-glow",    bg: "bg-cyan-glow/10"    },
+  { icon: BarChart3,     title: "ERP Solutions",           slug: "erp-solutions",           desc: "Custom dashboards for inventory, billing, HR & more. Built for small and growing businesses.",                                                      color: "text-amber-cta",    bg: "bg-amber-cta/10"    },
+  { icon: Truck,         title: "Logistics Solutions",     slug: "logistics-solutions",     desc: "Fleet tracking, delivery management software, WhatsApp automation for deliveries, and driver portals — built for logistics businesses.",            color: "text-electric-blue", bg: "bg-electric-blue/10" },
+  { icon: Code2,         title: "Software Development",    slug: "software-development",    desc: "SaaS products, APIs, ERP & CRM systems, e-commerce platforms, and mobile apps — full-stack custom engineering from architecture to deployment.",   color: "text-cyan-glow",    bg: "bg-cyan-glow/10"    },
 ];
 
 export default function ServicesPage() {
@@ -27,10 +29,10 @@ export default function ServicesPage() {
         badge="What We Do"
         title="Complete Digital Solutions"
         highlight="Under One Roof"
-        description="From your first website to full business automation — we build the digital stack that lets you focus on running your business."
+        description="From your first website to enterprise software and full business automation — we build the complete digital stack that lets you focus on running your business."
       />
       <section className="section-light py-20 px-4 sm:px-6">
-        <div className="max-w-content mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div className="max-w-content mx-auto grid grid-cols-1 sm:grid-cols-2 gap-5">
           {services.map((s) => {
             const Icon = s.icon;
             return (
@@ -54,7 +56,7 @@ export default function ServicesPage() {
           })}
         </div>
       </section>
-      <CTAStrip heading="Not sure which service you need?" subtext="Tell us about your business and we'll recommend the right solution." />
+      <CTAStrip heading="Not sure which service you need?" subtext="Tell us about your business and we will recommend the right solution." />
     </>
   );
 }
